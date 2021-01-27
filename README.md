@@ -1,3 +1,19 @@
+
+## code
+
+# create click handler and pass it to a button which when pressed calls the click handler that is pased to it in props
+
+# state initialized in the constructor = quotes [] and index 
+# componentDidMount(){fetch()} send 'get' request to githubquotes after component is mounted.
+# fetch returns a promise on which we chain 'then() callbacks'
+# .json() to parse data retrived by promise.. ie. separate json from body 
+# quoteIndex() - npm lodash used to produce a random number 
+# quoteIndex() is set as the selected quote index inside the 'setState' callback method.
+# because we only have access to the quote state in the setState callback function  
+## end of code 
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
